@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-// InsufficientFundsError - Error when withdraw value greater than balance
-var InsufficientFundsError = errors.New("cannot withdraw, insufficient funds")
+// ErrInsufficientFunds - Error when withdraw value greater than balance
+var ErrInsufficientFunds = errors.New("cannot withdraw, insufficient funds")
 
 // Bitcoin - A Bitcoin type
 type Bitcoin int
