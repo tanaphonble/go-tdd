@@ -34,4 +34,5 @@ func greetingPrefix(language string) (prefix string) {
 
 func main() {
 	fmt.Println(Hello("Chris", ""))
+	SumAllTails([]int{}, []int{0, 9})
 }
