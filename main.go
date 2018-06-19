@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 const englishPrefix = "Hello, "
 const spanishHelloPrefix = "Hola, "
 const frenchHelloPrefix = "Bonjour, "
@@ -32,7 +28,6 @@ func greetingPrefix(language string) (prefix string) {
 	return
 }
 
-func main() {
-	fmt.Println(Hello("Chris", ""))
-	SumAllTails([]int{}, []int{0, 9})
-}
+// func main() {
+// 	http.ListenAndServe(":5000", http.HandlerFunc(MyGreeterHandler))
+// }
